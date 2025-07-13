@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP Final Gustavo Del Vecchio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="media/img/logo.png" alt="Logo de la empresa">
+        <nav>
+            <ul class="flex-links">
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="#form-id">Formulario</a>
+                </li>
+                <li>
+                    <a href="#productos-id">Productos</a>
+                </li>
+                <li>
+                    <a href="#footer-id">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="productos-id" class="prod-section">
+            <h2 class="prod-titulo">Productos</h2>
+            <div id="seccion_productos" class="prod-container">
+                
+                <script src="js/script.js"></script>
+                
+            </div>
+            
+        </section>
+
+        <section id="form-id" class="form-section">
+            <h2 class="form-titulo">Formulario</h2>
+            <div >
+                <form action="index.html" method="POST" class="form">
+                    <label>Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" class="basic-input" placeholder="Nombre">
+
+                    <label>Email:</label>
+                    <input type="email" name="email" id="email" class="basic-input" placeholder="e-mail" required>
+
+                    <label>Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" class="basic-input"  placeholder="Mensaje" rows="4" required></textarea>
+
+                    <button class="btn-form" type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer id="footer-id">
+
+        <div class="footer-content">
+            <p>Dirección: Calle 1234, Ciudad Autonoma de Bs As, Argentina</p>
+            <p>Teléfono: 1234-5678</p>
+            <p>Email:
+                    <a href="mailto:pepe@compania.com.ar">pepe@compania.com.ar</a>
+            </p>    
+        </div>
+    </footer>
+</body>
+</html>
